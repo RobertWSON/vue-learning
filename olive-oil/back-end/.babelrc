@@ -1,0 +1,18 @@
+/* See my ChatGPT saved images for explanation on what this code does in more detail */
+/* Create a configuration object with { }*/
+{ 
+    /* "presets is a property and it has an array string value in square brackets [""] */
+    "presets": ["@babel/preset-env"],
+    /* @babel/preset-env is a preset that allows you to use latest JavaScript */
+
+    /* plugins is a property that has an array with a nested array value for /plugin-transform-runtime */
+    "plugins": [
+        /* plugin that optimizes code Babel generates and help avoid code duplication */
+        ["@babel/plugin-transform-runtime", {
+            /* This option tells plugin to include support for regenerator-runtime 
+               regenerator-runtime library is used to handle asynchronous functions */
+            "regenerator": true  
+            /* "regenerator" is second element in nested array for plugins property value */       
+        }]
+    ]
+}
