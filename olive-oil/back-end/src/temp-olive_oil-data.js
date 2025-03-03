@@ -1,7 +1,8 @@
 /* This is a JavaScript File with an array used for setting up Olive Oil data.
    Note that some of data is temporary, because how it is accessed in this file wll be changed later. */
 
-// Comment imported images for now   
+// Comment imported images for now  
+// These image imports are no longer needed, as we are using an image URL on back-end now  
 // import basilBottle from './assets/basil-bottle.webp';
 // import lemonBottle from './assets/lemon-bottle.webp';
 // import garlicBottle from './assets/garlic-bottle.webp';
@@ -27,53 +28,122 @@ export const cartItems = [ '123', '234', '345' ];
     // { id: '234', name: 'Lemon', price: '$26.00', // imageName: lemonBottle },
     // { id: '345', name: 'Garlic', price: '$26.00', // imageName: garlicBottle }]; 
 
+/* export const products = [
+    {
+        id: '123',
+        name: 'Basil',
+        price: '$26.00',*/
+        // imageName: basilBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/basil-bottle.webp'
+    },
+    {
+        id: '234',
+        name: 'Lemon',
+        price: '$26.00', */
+        // imageName: lemonBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/lemon-bottle.webp'
+    },
+    {
+        id: '345',
+        name: 'Garlic',
+        price: '$26.00', */
+        // imageName: garlicBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/garlic-bottle.webp'
+    },
+    {
+        id: '456',
+        name: 'Rosemary',
+        price: '$26.00', */
+        // imageName: rosemaryBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/rosemary-bottle.webp' 
+    },
+    {
+        id: '567',
+        name: 'Chili',
+        price: '$26.00', */
+        // imageName: chiliBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/chili-bottle.webp'
+    },
+    {
+        id: '678',
+        name: 'Delicate',
+        price: '$24.50', */
+        // imageName: delicateBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/delicate-bottle.webp'
+    },
+    {
+        id: '789',
+        name: 'Medium',
+        price: '$24.50', */
+        // imageName: mediumBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/medium-bottle.webp'
+    },
+    {
+        id: '890',
+        name: 'Bold',
+        price: '$24.50', */
+        // imageName: boldBottle   An Image will work differently on back-end than front-end
+        // Change imageName to imageURL on back-end, so that we test for how an image shows with a URL
+        /* imageURL: '/images/bold-bottle.webp'
+    }
+]; */
+
+/* Products Data Array with No Comments, so Data is all together for Copying and pasting into 
+   MongoDB Shell (Mongosh). */
 export const products = [
     {
         id: '123',
         name: 'Basil',
         price: '$26.00',
-        // imageName: basilBottle
+        imageURL: '/images/basil-bottle.webp'
     },
     {
         id: '234',
         name: 'Lemon',
         price: '$26.00',
-        // imageName: lemonBottle
+        imageURL: '/images/lemon-bottle.webp'
     },
     {
         id: '345',
         name: 'Garlic',
-        price: '$26.00',
-        // imageName: garlicBottle
+        price: '$26.00', 
+        imageURL: '/images/garlic-bottle.webp'
     },
     {
         id: '456',
         name: 'Rosemary',
-        price: '$26.00',
-        // imageName: rosemaryBottle 
+        price: '$26.00', 
+        imageURL: '/images/rosemary-bottle.webp' 
     },
     {
         id: '567',
         name: 'Chili',
         price: '$26.00',
-        // imageName: chiliBottle
+        imageURL: '/images/chili-bottle.webp'
     },
     {
         id: '678',
         name: 'Delicate',
-        price: '$24.50',
-        // imageName: delicateBottle
+        price: '$24.50',  
+        imageURL: '/images/delicate-bottle.webp'
     },
     {
         id: '789',
         name: 'Medium',
-        price: '$24.50',
-        // imageName: mediumBottle
+        price: '$24.50', 
+        imageURL: '/images/medium-bottle.webp'
     },
     {
         id: '890',
         name: 'Bold',
-        price: '$24.50',
-        // imageName: boldBottle
+        price: '$24.50', 
+        imageURL: '/images/bold-bottle.webp'
     }
-];
+]; 

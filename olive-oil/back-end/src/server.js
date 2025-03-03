@@ -40,7 +40,7 @@ app.get('/hello', (req, res) => {  /* Firstly used app.get('/hello',)
    call back function with 2 arguments request and response */
    res.send('Hello!');
    /* Inside body of call back function we send back a string message on page. */ 
-})
+});
 
 /* Endpoint for loading all products */
 app.get('/products', (req, res) => {
