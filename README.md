@@ -1,2 +1,2 @@
 # vue-learning
-This repo is used to help me learn Vue
+This repository is used to help me learn Vue. 
