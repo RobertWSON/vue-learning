@@ -1,5 +1,5 @@
 # vue-learning
-This repository is used to help me learn Vue through a collection of projects, created to enhance my skills with Vue.js and explore its practical applications. Each folder represents a unique project that demonstrates different aspetcs of Vue.js .   
+This repository is used to help me learn Vue through a collection of projects, created to enhance my skills with Vue.js and explore its practical applications. Each folder represents a unique project that demonstrates different aspects of Vue.js .   
 
 ---
 
