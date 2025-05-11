@@ -1,0 +1,23 @@
+{
+    // Do not need nodePath and workingDirectories
+    /* Can use nodePath and workingDirectories now, because ESLint Extension is installed in 
+       Visual Studio Code. */
+    /*"eslint.nodePath": "/Users/robw_mojave/.nvm/versions/node/v16.16.0/lib/node_modules",
+       nodePath is currently not using modules, so instead refer to node_modules for 
+       local ESlint 8.57.0 wihin this project. */
+    "eslint.nodePath": "./node_modules",
+    "eslint.workingDirectories": [
+    "./back-end"
+    ], 
+    /* Do not need schema because eslint code works now as ESLint Extension is installed in 
+       Visual Studio Code. 
+      "$schema": "vscode://schemas/settings/folder",*/
+      /* extensions code (2 of them) below should go in global settings file
+         This is in ~/Library/Application Support/Code/User/settings.json 
+      "extensions.autoUpdate": false,
+      "extensions.autoCheckUpdates": false, */ 
+    "eslint.validate": ["javascript", "vue", "typescript"],
+    "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
