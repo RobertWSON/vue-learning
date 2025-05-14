@@ -2,3 +2,4 @@
 # security purposes, so personal data such as a password are not shown.
 # Code below means that GitHub should ignore showing a .env file.
 .env
+.DS_Store
