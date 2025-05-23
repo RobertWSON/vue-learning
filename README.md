@@ -8,11 +8,8 @@ This repository is used to help me learn Vue through a collection of projects, c
 ### **1. Olive Oil**
 
 - **Description:**
-  (Newly added at work with suggeston from Chat GPT)
    A shopping cart application designed for managing olive oil product data. This project focuses on learning and implementing 
    Vue.js, integrating MongoDB for efficient data management and enhancing interactivity through API usage.  
-  (My Original below)
-  A shopping cart application for managing olive oil product data.
 
 - **Features:**
   - Dynamic front-end built with Vue.js . 
