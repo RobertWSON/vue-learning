@@ -22,7 +22,14 @@ This repository is used to help me learn Vue through a collection of projects, c
   - API endpoint for data integration.
 
 - **Technologies:**
-  - Vue.js, MongoDB, Node.js, Express, HTML, CSS 
+  (New)
+  - Front-end - Vue.js, CSS
+  - Back-end - Node.js, Express.js, MongoDB
+  - Build Tools - Vue CLI, Babel, ESLint, Nodemon
+  - Utilities - Chalk, Dotenv, Zod
+  - APIs - Express endpoints tested with Postman      
+  (Original Below)
+  - Vue.js, MongoDB, Node.js, Express.js, HTML, CSS 
 
 - **Setup Instructions:**
   Refer to `/front-end` folder for setup and configuration details.
