@@ -12,6 +12,11 @@ This repository is used to help me learn Vue through a collection of projects, c
    Vue.js, integrating MongoDB for efficient data management and enhancing interactivity through API usage.  
 
 - **Features:**
+  (New)
+  - Dynamic front-end built with Vue.js
+  - Database Management for storing product details.
+  - API endpoints for efficient communication between front-end and back-end.  
+  (Original Below)
   - Dynamic front-end built with Vue.js . 
   - Uses MongoDB for database management.
   - API endpoint for data integration.
