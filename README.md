@@ -32,11 +32,20 @@ This repository is used to help me learn Vue through a collection of projects, c
   - Vue.js, MongoDB, Node.js, Express.js, HTML, CSS 
 
 - **Setup Instructions:**
-  Refer to `/front-end` folder for setup and configuration details.
+  (New)
+  - Navigate to `/front-end` folder and run npm install to install dependences.
+  - Use npm run serve to start fron-end application on a development server.  
+  - Refer to README in `/front-end` folder for additional project setup details.
+  - Navigate to `/back-end` folder and run npm install to install server dependencies.
+  - configure `.env` for MongoDB connection string and API keys.
+  - Use npm start to `npm start` to launch back-end server  
 
+  (Original) Refer to `/front-end` folder for setup and configuration details.
+
+[(Original /font-end folder now in Setup Instructions]
 - **/front-end folder:**
   Contains Vue.js application files and CSS. 
-
+[(Original /back-end folder now in Setup Instructions]
 - **/back-end folder:**
   - Connects to MongoDB Atlas database using a connection string. 
   - APIs for managing and retrieving data. 
