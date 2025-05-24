@@ -44,9 +44,10 @@ This repository is used to help me learn Vue through a collection of projects, c
 ---
 
 ## Future Enhancements
-- Add authentication using Firebase.
-- Implement responsive design for better mobile useability.
-- Deploy application using Render.
+- Implement responsive design for mobile useability.
+- Integrate Axios for connecting front-end with back-end.
+- Use Firebase for authentication (login and logout) and managing cart items.
+- Deploy Vue application using Render.
 
 ---
 
