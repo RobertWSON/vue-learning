@@ -38,7 +38,7 @@ This repository is used to help me learn Vue through a collection of projects, c
   - Use `npm run serve` to start `front-end` application on a development server.  
   - Refer to README in `/front-end` folder for additional project setup details.
   - Navigate to `/back-end` folder and run `npm install` to install server dependencies.
-  - configure `.env` for MongoDB connection string.
+  - configure `dotenv` for MongoDB connection string.
   - Use `npm start` to launch back-end server  
 
 ---
