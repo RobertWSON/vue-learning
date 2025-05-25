@@ -52,8 +52,7 @@ This repository is used to help me learn Vue through a collection of projects, c
 ---
 
 ## Repository Goals
-- Develop a deeper understanding of Vue.js components and practical use cases.
-- Explore integration with APIs and databases.
-- Build scalable and user-friendly applications ussing Vue.js . 
-
-  
+- Complete future enhancements for responsive design, Firebase authentication and Axios integration.
+- Deepen understanding of Vue.js components by creating reusable and modular structures for scalability.
+- Build a functional shopping cart system to explore practical applications of Vue.js and streamline API-driven data handling.
+- Strengthen database management and API development skills for robust full-stack applications.
