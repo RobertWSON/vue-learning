@@ -51,7 +51,7 @@ This repository is used to help me learn Vue through a collection of projects, c
 
 ---
 
-## Repository Goals
+## Olive Oil Project Goals
 - Complete future enhancements for responsive design, Firebase authentication and Axios integration.
 - Deepen understanding of Vue.js components by creating reusable and modular structures for scalability.
 - Build a functional shopping cart system to explore practical applications of Vue.js and streamline API-driven data handling.
